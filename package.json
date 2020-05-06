@@ -1,14 +1,25 @@
 {
-  "name": "npm",
+  "name": "macroplanner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Macro calculator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotakanazawa/macro_planner"
+  },
+  "keywords": [
+    "macros",
+    "workout"
+  ],
+  "author": "kanazawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kotakanazawa/macro_planner/issues"
+  },
+  "homepage": "https://github.com/kotakanazawa/macro_planner#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
@@ -16,5 +27,8 @@
     "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
     "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "inquirer": "^7.1.0"
   }
 }
