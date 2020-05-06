@@ -20,6 +20,9 @@
     "url": "https://github.com/kotakanazawa/macro_planner/issues"
   },
   "homepage": "https://github.com/kotakanazawa/macro_planner#readme",
+  "bin": {
+    "macroplan": "bin/main.js"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
