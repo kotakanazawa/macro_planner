@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 'use strict'
 const math = require('./math')
 const Data = math.Data
