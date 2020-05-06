@@ -2,7 +2,9 @@
   "name": "macroplan",
   "version": "1.0.1",
   "description": "Macro calculator",
-  "main": "index.js",
+  "bin": {
+    "macroplan": "main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,9 +22,6 @@
     "url": "https://github.com/kotakanazawa/macro_planner/issues"
   },
   "homepage": "https://github.com/kotakanazawa/macro_planner#readme",
-  "bin": {
-    "macroplan": "bin/main.js"
-  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
