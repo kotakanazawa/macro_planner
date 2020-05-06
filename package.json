@@ -1,6 +1,6 @@
 {
   "name": "macroplan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Macro calculator",
   "bin": {
     "macroplan": "./main.js"
